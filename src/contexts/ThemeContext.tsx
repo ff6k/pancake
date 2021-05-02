@@ -21,8 +21,7 @@ const ThemeContextProvider = ({ children }) => {
 
 
 
-  const tempDark = { ...dark, tooltip:{...dark.tooltip, background: "#ff8800"}, colors: { ...dark.colors, textSubtle: "#ff8800", backgroundAlt: "#000", secondary: "#ff8800", text: "#ff8800" }, card: { ...dark.card, background: "#000" } }
-  console.log('====================================', dark)
+  const tempDark = { ...dark, tooltip: { ...dark.tooltip, background: "#ff8800" }, colors: { ...dark.colors, primary: "#0056AC", textSubtle: "#ff8800", backgroundAlt: "#000", secondary: "#ff8800", text: "#ff8800" }, card: { ...dark.card, background: "#000" } }
 
   return (
     <ThemeContext.Provider value={{ isDark, toggleTheme }}>

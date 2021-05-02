@@ -76,15 +76,24 @@ const CTACards = styled(BaseLayout)`
   }
 `
 
+const ImageWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
 const Home: React.FC = () => {
   const TranslateString = useI18n()
 
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="secondary">
+        <ImageWrapper>
+          <img src="/images/home/left.png" alt="ifo bunny" width="115px" height="100px" />
+          <img src="/images/home/right.png" alt="ifo bunny" width="100px" height="100px" />
+        </ImageWrapper>
+        {/* <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Ape Finance')}
-        </Heading>
+        </Heading> */}
         <Text>{TranslateString(578, 'The #1 AMM and yield farm on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
