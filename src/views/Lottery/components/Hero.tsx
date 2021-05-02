@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, LinkExternal } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Container from 'components/layout/Container'
+import { Heading, Text, LinkExternal } from '../../../components/Pancakeswap/uikit/src'
 
 const Title = styled(Heading).attrs({ as: 'h1', size: 'xl' })`
   color: #ffffff;
@@ -19,7 +19,7 @@ const ComeBack = styled(Text)`
 `
 
 const StyledHero = styled.div`
-  background-image: linear-gradient(#7645d9, #452a7a);
+  background-image: linear-gradient(#7645d9, #ff8800);
   max-height: max-content;
   overflow: hidden;
   ${({ theme }) => theme.mediaQueries.sm} {

@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import { Heading, Card, CardBody, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import styled from 'styled-components'
 import Select, { OptionProps } from 'components/Select/Select'
 import HistoryChart from './HistoryChart'
 import Legend from './Legend'
+import { Heading, Card, CardBody, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const Wrapper = styled.div`
   display: flex;

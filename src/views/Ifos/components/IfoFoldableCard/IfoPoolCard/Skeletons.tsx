@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Skeleton } from '@pancakeswap-libs/uikit'
+import { Flex, Skeleton } from '../../../../../components/Pancakeswap/uikit/src'
 
 export const SkeletonCardActions = () => {
   return <Skeleton height="48px" />

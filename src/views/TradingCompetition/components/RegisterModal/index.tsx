@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Modal, Button, NoProfileAvatarIcon, Flex } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { Modal, Button, NoProfileAvatarIcon, Flex } from '../../../../components/Pancakeswap/uikit/src'
 import { CompetitionProps } from '../../types'
 import MakeProfile from './MakeProfile'
 import ReactivateProfile from './ReactivateProfile'

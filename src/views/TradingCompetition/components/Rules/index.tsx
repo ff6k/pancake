@@ -1,7 +1,7 @@
 import React from 'react'
-import { Flex, Text } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'
+import { Flex, Text } from '../../../../components/Pancakeswap/uikit/src'
 import RulesCard from './RulesCard'
 import FAQs from './FAQs'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Text, Heading, Image } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { Flex, Text, Heading, Image } from '../../../../components/Pancakeswap/uikit/src'
 import FlipperBunny from '../../pngs/flippers.png'
 
 const StyledFlex = styled(Flex)`

@@ -1,6 +1,5 @@
 import React, { useEffect, lazy } from 'react'
 import { Router, Redirect, Route, Switch } from 'react-router-dom'
-import { ResetCSS } from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js'
 import useEagerConnect from 'hooks/useEagerConnect'
 import { useFetchPriceList, useFetchProfile, useFetchPublicData } from 'state/hooks'
@@ -12,6 +11,7 @@ import PageLoader from './components/PageLoader'
 import EasterEgg from './components/EasterEgg'
 import Pools from './views/Pools'
 import history from './routerHistory'
+import { ResetCSS } from './components/Pancakeswap/uikit/src';
 
 // Route-based code splitting
 // Only pool is included in the main bundle because of it's the most visited page

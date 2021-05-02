@@ -1,6 +1,6 @@
 import React from 'react'
-import { BunnyPlaceholderIcon, Flex, Heading } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { BunnyPlaceholderIcon, Flex, Heading } from '../../../components/Pancakeswap/uikit/src'
 
 interface ComingSoonProps {
   children?: React.ReactNode

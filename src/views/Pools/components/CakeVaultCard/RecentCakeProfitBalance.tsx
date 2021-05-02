@@ -1,9 +1,9 @@
 import React from 'react'
 import BigNumber from 'bignumber.js'
-import { Text, useTooltip } from '@pancakeswap-libs/uikit'
 import { getFullDisplayBalance } from 'utils/formatBalance'
 import useI18n from 'hooks/useI18n'
 import { convertSharesToCake } from '../../helpers'
+import { Text, useTooltip } from '../../../../components/Pancakeswap/uikit/src'
 
 interface RecentCakeProfitBalanceProps {
   cakeAtLastUserAction: BigNumber

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import useGetProfileCosts from 'hooks/useGetProfileCosts'
 import { useAppDispatch } from 'state'
@@ -9,6 +8,7 @@ import useToast from 'hooks/useToast'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useProfile as useProfileContract } from 'hooks/useContract'
 import { useWeb3React } from '@web3-react/core'
+import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 type PauseProfilePageProps = InjectedModalProps
 

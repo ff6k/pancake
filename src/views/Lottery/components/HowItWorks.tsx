@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Heading, Link, Image } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { Text, Heading, Link, Image } from '../../../components/Pancakeswap/uikit/src'
 
 const LayoutWrapper = styled.div`
   max-width: 500px;

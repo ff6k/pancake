@@ -1,8 +1,8 @@
 import React from 'react'
 import BigNumber from 'bignumber.js'
-import { Text, TextProps } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { BIG_ZERO } from 'utils/bigNumber'
+import { Text, TextProps } from '../../../../../components/Pancakeswap/uikit/src'
 
 interface PercentageOfTotalProps extends TextProps {
   userAmount: BigNumber

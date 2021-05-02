@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, PrizeIcon, Text } from '@pancakeswap-libs/uikit'
 import { Achievement } from 'state/types'
 import AchievementAvatar from './AchievementAvatar'
 import AchievementTitle from './AchievementTitle'
 import AchievementDescription from './AchievementDescription'
+import { Flex, PrizeIcon, Text } from '../../../components/Pancakeswap/uikit/src'
 
 interface AchievementCardProps {
   achievement: Achievement

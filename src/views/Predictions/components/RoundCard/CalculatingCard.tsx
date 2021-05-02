@@ -1,5 +1,4 @@
 import React from 'react'
-import { CardBody, Flex, Spinner, WaitIcon } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { Round, BetPosition } from 'state/types'
 import { useGetTotalIntervalBlocks } from 'state/hooks'
@@ -7,6 +6,7 @@ import { RoundResultBox } from '../RoundResult'
 import MultiplierArrow from './MultiplierArrow'
 import Card from './Card'
 import CardHeader from './CardHeader'
+import { CardBody, Flex, Spinner, WaitIcon } from '../../../../components/Pancakeswap/uikit/src'
 
 interface CalculatingCardProps {
   round: Round

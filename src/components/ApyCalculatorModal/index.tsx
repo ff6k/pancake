@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Modal, Text, LinkExternal, Flex } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { tokenEarnedPerThousandDollarsCompounding, getRoi } from 'utils/compoundApyHelpers'
+import { Modal, Text, LinkExternal, Flex } from '../Pancakeswap/uikit/src'
 
 interface ApyCalculatorModalProps {
   onDismiss?: () => void

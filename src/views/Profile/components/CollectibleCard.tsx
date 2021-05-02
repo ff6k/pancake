@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text } from '@pancakeswap-libs/uikit'
 import { Nft } from 'config/constants/types'
+import { Text } from '../../../components/Pancakeswap/uikit/src'
 
 interface CollectibleCardProps {
   nft: Nft

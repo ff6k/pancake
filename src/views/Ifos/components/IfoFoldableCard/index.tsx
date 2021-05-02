@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { Ifo, IfoStatus, PoolIds } from 'config/constants/types'
+import { PublicIfoData, WalletIfoData } from 'hooks/ifo/types'
+import useI18n from 'hooks/useI18n'
+import IfoPoolCard from './IfoPoolCard'
+import Timer from './Timer'
+import Achievement from './Achievement'
 import {
   Card,
   CardHeader,
@@ -10,13 +16,7 @@ import {
   Progress,
   Button,
   ChevronUpIcon,
-} from '@pancakeswap-libs/uikit'
-import { Ifo, IfoStatus, PoolIds } from 'config/constants/types'
-import { PublicIfoData, WalletIfoData } from 'hooks/ifo/types'
-import useI18n from 'hooks/useI18n'
-import IfoPoolCard from './IfoPoolCard'
-import Timer from './Timer'
-import Achievement from './Achievement'
+} from '../../../../components/Pancakeswap/uikit/src'
 
 interface IfoFoldableCardProps {
   ifo: Ifo

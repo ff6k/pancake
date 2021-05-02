@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { ThemeProvider as SCThemeProvider } from 'styled-components'
-import { light, dark } from '@pancakeswap-libs/uikit'
+import { light, dark } from '../components/Pancakeswap/uikit/src'
 
 const CACHE_KEY = 'IS_DARK'
 
@@ -21,7 +21,7 @@ const ThemeContextProvider = ({ children }) => {
 
 
 
-  const tempDark = { ...dark, colors: { ...dark.colors, textSubtle: "#ff8800", backgroundAlt: "#000", secondary: "#ff8800", text: "#ff8800" }, card: { ...dark.card, background: "#000" } }
+  const tempDark = { ...dark, tooltip:{...dark.tooltip, background: "#ff8800"}, colors: { ...dark.colors, textSubtle: "#ff8800", backgroundAlt: "#000", secondary: "#ff8800", text: "#ff8800" }, card: { ...dark.card, background: "#000" } }
   console.log('====================================', dark)
 
   return (

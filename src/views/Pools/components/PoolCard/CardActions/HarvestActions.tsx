@@ -1,5 +1,4 @@
 import React from 'react'
-import { Flex, Text, Button, Heading, useModal, Skeleton } from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js'
 import { Token } from 'config/constants/types'
 import { getAddress } from 'utils/addressHelpers'
@@ -7,6 +6,7 @@ import useI18n from 'hooks/useI18n'
 import { getFullDisplayBalance, getBalanceNumber, formatNumber } from 'utils/formatBalance'
 import { useGetApiPrice } from 'state/hooks'
 import CollectModal from '../Modals/CollectModal'
+import { Flex, Text, Button, Heading, useModal, Skeleton } from '../../../../../components/Pancakeswap/uikit/src'
 
 interface HarvestActionsProps {
   earnings: BigNumber

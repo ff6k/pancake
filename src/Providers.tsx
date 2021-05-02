@@ -1,5 +1,4 @@
 import React from 'react'
-import { ModalProvider } from '@pancakeswap-libs/uikit'
 import { Web3ReactProvider } from '@web3-react/core'
 import { HelmetProvider } from 'react-helmet-async'
 import { Provider } from 'react-redux'
@@ -9,6 +8,7 @@ import { ThemeContextProvider } from 'contexts/ThemeContext'
 import { RefreshContextProvider } from 'contexts/RefreshContext'
 import { ToastsProvider } from 'contexts/ToastsContext'
 import store from 'state'
+import { ModalProvider } from './components/Pancakeswap/uikit/src'
 
 const Providers: React.FC = ({ children }) => {
   return (

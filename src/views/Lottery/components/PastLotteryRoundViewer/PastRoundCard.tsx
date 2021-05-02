@@ -1,8 +1,8 @@
 import React from 'react'
-import { Card } from '@pancakeswap-libs/uikit'
 import { DataResponse } from 'utils/getLotteryRoundData'
 import PastRoundCardError from './PastRoundCardError'
 import PastRoundCardDetails from './PastRoundCardDetails'
+import { Card } from '../../../../components/Pancakeswap/uikit/src'
 
 interface PastRoundCardProps {
   error: {

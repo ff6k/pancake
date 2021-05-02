@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+import useI18n from 'hooks/useI18n'
+import easterPrizes, { Tiers, Rank } from 'config/constants/trading-competition/easter'
+import { Td, BoldTd, StyledPrizeTable } from '../../StyledPrizeTable'
 import {
   BlockIcon,
   Box,
@@ -15,10 +18,7 @@ import {
   Text,
   TeamPlayerIcon,
   TrophyGoldIcon,
-} from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
-import easterPrizes, { Tiers, Rank } from 'config/constants/trading-competition/easter'
-import { Td, BoldTd, StyledPrizeTable } from '../../StyledPrizeTable'
+} from '../../../../../components/Pancakeswap/uikit/src'
 
 const COLOR_GOLD = '#FFBF33'
 const COLOR_SILVER = '#C1C1C1'

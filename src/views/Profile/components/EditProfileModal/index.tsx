@@ -1,11 +1,11 @@
 import React from 'react'
-import { InjectedModalProps, Modal } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import useEditProfile, { Views } from './reducer'
 import StartView from './StartView'
 import PauseProfileView from './PauseProfileView'
 import ChangeProfilePicView from './ChangeProfilePicView'
 import ApproveCakeView from './ApproveCakeView'
+import { InjectedModalProps, Modal } from '../../../../components/Pancakeswap/uikit/src'
 
 type EditProfileModalProps = InjectedModalProps
 

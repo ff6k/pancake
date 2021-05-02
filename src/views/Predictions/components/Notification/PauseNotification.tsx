@@ -1,9 +1,9 @@
 import React from 'react'
-import { Box, Button, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useAppDispatch } from 'state'
 import { setHistoryPaneState } from 'state/predictions'
 import Notification from './Notification'
+import { Box, Button, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const PauseNotification = () => {
   const TranslateString = useI18n()

@@ -1,9 +1,9 @@
 import React from 'react'
-import { Heading, Text, Flex, ChevronRightIcon } from '@pancakeswap-libs/uikit'
 import { Link } from 'react-router-dom'
 import useI18n from 'hooks/useI18n'
 import { useGetCollectibles } from 'state/hooks'
 import styled from 'styled-components'
+import { Heading, Text, Flex, ChevronRightIcon } from '../../../components/Pancakeswap/uikit/src'
 import CollectibleCard from './CollectibleCard'
 
 const CollectibleList = styled.div`

@@ -3,13 +3,13 @@ import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
 import { getBalanceNumber } from 'utils/formatBalance'
 import useI18n from 'hooks/useI18n'
-import { Flex, MetamaskIcon, Text, LinkExternal, TimerIcon, Skeleton, useTooltip } from '@pancakeswap-libs/uikit'
 import { BASE_BSC_SCAN_URL, BASE_URL } from 'config'
 import { useBlock } from 'state/hooks'
 import { Pool } from 'state/types'
 import { getAddress, getCakeVaultAddress } from 'utils/addressHelpers'
 import { registerToken } from 'utils/wallet'
 import Balance from 'components/Balance'
+import { Flex, MetamaskIcon, Text, LinkExternal, TimerIcon, Skeleton, useTooltip } from '../../../../../components/Pancakeswap/uikit/src'
 
 interface ExpandedFooterProps {
   pool: Pool

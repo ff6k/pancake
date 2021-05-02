@@ -1,10 +1,10 @@
 import React from 'react'
-import { BoxProps, Flex, Text } from '@pancakeswap-libs/uikit'
 import { BetPosition, Round } from 'state/types'
 import useI18n from 'hooks/useI18n'
 import { formatUsd } from '../../helpers'
 import PositionTag from '../PositionTag'
 import { LockPriceRow, PrizePoolRow, RoundResultBox } from './styles'
+import { BoxProps, Flex, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 interface RoundResultProps extends BoxProps {
   round: Round

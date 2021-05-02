@@ -1,10 +1,11 @@
 import React from 'react'
 import styled, { keyframes, css } from 'styled-components'
 import useI18n from 'hooks/useI18n'
-import { LinkExternal, Text } from '@pancakeswap-libs/uikit'
 import { FarmWithStakedValue } from 'views/Farms/components/FarmCard/FarmCard'
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 import { CommunityTag, CoreTag, DualTag } from 'components/Tags'
+import { LinkExternal, Text } from '../../../../../components/Pancakeswap/uikit/src'
+
 
 import HarvestAction from './HarvestAction'
 import StakedAction from './StakedAction'

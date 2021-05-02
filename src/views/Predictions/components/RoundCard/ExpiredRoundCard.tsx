@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { BlockIcon, CardBody } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { Round, BetPosition } from 'state/types'
 import { RoundResult } from '../RoundResult'
@@ -9,6 +8,7 @@ import Card from './Card'
 import CardHeader from './CardHeader'
 import CollectWinningsOverlay from './CollectWinningsOverlay'
 import CanceledRoundCard from './CanceledRoundCard'
+import { BlockIcon, CardBody } from '../../../../components/Pancakeswap/uikit/src'
 
 interface ExpiredRoundCardProps {
   round: Round

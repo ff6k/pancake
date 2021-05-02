@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button, Card, CardBody, Flex, Heading, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { Link } from 'react-router-dom'
+import { Button, Card, CardBody, Flex, Heading, Text } from '../../../components/Pancakeswap/uikit/src'
 
 const NoProfileCard = () => {
   const TranslateString = useI18n()

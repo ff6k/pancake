@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { HelpIcon, Skeleton, useTooltip } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { HelpIcon, Skeleton, useTooltip } from '../../../../components/Pancakeswap/uikit/src'
 
 const ReferenceElement = styled.div`
   display: inline-block;

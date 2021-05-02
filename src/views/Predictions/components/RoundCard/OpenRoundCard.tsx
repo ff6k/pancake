@@ -1,14 +1,6 @@
 import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import { useWeb3React } from '@web3-react/core'
-import {
-  CardBody,
-  PlayCircleOutlineIcon,
-  Button,
-  useTooltip,
-  ArrowUpIcon,
-  ArrowDownIcon,
-} from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useAppDispatch } from 'state'
 import { BetPosition, Round } from 'state/types'
@@ -22,6 +14,14 @@ import MultiplierArrow from './MultiplierArrow'
 import Card from './Card'
 import CardHeader from './CardHeader'
 import SetPositionCard from './SetPositionCard'
+import {
+  CardBody,
+  PlayCircleOutlineIcon,
+  Button,
+  useTooltip,
+  ArrowUpIcon,
+  ArrowDownIcon,
+} from '../../../../components/Pancakeswap/uikit/src'
 
 interface OpenRoundCardProps {
   round: Round

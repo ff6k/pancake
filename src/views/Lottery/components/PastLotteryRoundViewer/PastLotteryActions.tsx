@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button, LinkExternal, useModal } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useWeb3React } from '@web3-react/core'
 import useTickets from 'hooks/useTickets'
 import UnlockButton from 'components/UnlockButton'
 import MyTicketsModal from '../TicketCard/UserTicketsModal'
+import { Button, LinkExternal, useModal } from '../../../../components/Pancakeswap/uikit/src'
 
 const Wrapper = styled.div`
   align-items: center;

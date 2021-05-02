@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Box, CardBody, Flex, Text } from '@pancakeswap-libs/uikit'
 import UnlockButton from 'components/UnlockButton'
 import useI18n from 'hooks/useI18n'
 import { getAddress } from 'utils/addressHelpers'
@@ -17,6 +16,7 @@ import StyledCardHeader from '../PoolCard/StyledCardHeader'
 import VaultCardActions from './VaultCardActions'
 import UnstakingFeeCountdownRow from './UnstakingFeeCountdownRow'
 import RecentCakeProfitRow from './RecentCakeProfitRow'
+import { Box, CardBody, Flex, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const StyledCardBody = styled(CardBody)<{ isLoading: boolean }>`
   min-height: ${({ isLoading }) => (isLoading ? '0' : '254px')};

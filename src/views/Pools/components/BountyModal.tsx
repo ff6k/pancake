@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import { useWeb3React } from '@web3-react/core'
 import styled from 'styled-components'
-import { Modal, Text, Flex, Button, HelpIcon, AutoRenewIcon, useTooltip } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useCakeVaultContract } from 'hooks/useContract'
 import { getFullDisplayBalance } from 'utils/formatBalance'
 import useTheme from 'hooks/useTheme'
 import useToast from 'hooks/useToast'
+import { Modal, Text, Flex, Button, HelpIcon, AutoRenewIcon, useTooltip } from '../../../components/Pancakeswap/uikit/src'
 
 interface BountyModalProps {
   cakeCallBountyToDisplay: string

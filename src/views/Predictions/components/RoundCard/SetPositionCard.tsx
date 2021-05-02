@@ -1,19 +1,4 @@
 import React, { ChangeEventHandler, useEffect, useState } from 'react'
-import {
-  ArrowBackIcon,
-  CardBody,
-  CardHeader,
-  Flex,
-  Heading,
-  IconButton,
-  Button,
-  BinanceIcon,
-  Text,
-  BalanceInput,
-  Slider,
-  Box,
-  AutoRenewIcon,
-} from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js'
 import { DEFAULT_TOKEN_DECIMAL } from 'config'
 import { useWeb3React } from '@web3-react/core'
@@ -30,6 +15,21 @@ import { getBnbAmount } from '../../helpers'
 import useSwiper from '../../hooks/useSwiper'
 import FlexRow from '../FlexRow'
 import Card from './Card'
+import {
+  ArrowBackIcon,
+  CardBody,
+  CardHeader,
+  Flex,
+  Heading,
+  IconButton,
+  Button,
+  BinanceIcon,
+  Text,
+  BalanceInput,
+  Slider,
+  Box,
+  AutoRenewIcon,
+} from '../../../../components/Pancakeswap/uikit/src'
 
 interface SetPositionCardProps {
   position: BetPosition

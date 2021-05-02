@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button, Modal } from '@pancakeswap-libs/uikit'
 import ModalActions from 'components/ModalActions'
 import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'
+import { Button, Modal } from '../../../../components/Pancakeswap/uikit/src'
 
 const WarningModal: React.FC<{ onDismiss?: () => void }> = ({ onDismiss }) => {
   const TranslateString = useI18n()

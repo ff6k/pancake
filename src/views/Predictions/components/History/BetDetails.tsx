@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Bet } from 'state/types'
 import useI18n from 'hooks/useI18n'
-import { Flex, Text, Link, Heading } from '@pancakeswap-libs/uikit'
+import { Flex, Text, Link, Heading } from '../../../../components/Pancakeswap/uikit/src'
 import { RoundResult } from '../RoundResult'
 import BetResult, { Result } from './BetResult'
 

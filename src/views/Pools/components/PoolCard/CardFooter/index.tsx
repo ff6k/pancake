@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'
-import { Flex, CardFooter, ExpandableLabel, HelpIcon, useTooltip, Box } from '@pancakeswap-libs/uikit'
 import { Pool } from 'state/types'
 import { CompoundingPoolTag, ManualPoolTag } from 'components/Tags'
 import ExpandedFooter from './ExpandedFooter'
+import { Flex, CardFooter, ExpandableLabel, HelpIcon, useTooltip, Box } from '../../../../../components/Pancakeswap/uikit/src'
 
 interface FooterProps {
   pool: Pool

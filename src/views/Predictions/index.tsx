@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react'
 import { Helmet } from 'react-helmet-async'
-import { useMatchBreakpoints, useModal } from '@pancakeswap-libs/uikit'
 import { useAppDispatch } from 'state'
 import { useGetPredictionsStatus, useInitialBlock } from 'state/hooks'
 import {
@@ -21,6 +20,7 @@ import SwiperProvider from './context/SwiperProvider'
 import Desktop from './Desktop'
 import Mobile from './Mobile'
 import RiskDisclaimer from './components/RiskDisclaimer'
+import { useMatchBreakpoints, useModal } from '../../components/Pancakeswap/uikit/src'
 
 const FUTURE_ROUND_COUNT = 2 // the number of rounds in the future to show
 

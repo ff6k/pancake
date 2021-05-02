@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Box, Flex } from '@pancakeswap-libs/uikit'
 import { useGetPredictionsStatus, useIsChartPaneOpen, useIsHistoryPaneOpen } from 'state/hooks'
 import { PredictionStatus } from 'state/types'
 import MobileMenu from './components/MobileMenu'
@@ -8,6 +7,7 @@ import History from './History'
 import Positions from './Positions'
 import Chart from './Chart'
 import { ErrorNotification, PauseNotification } from './components/Notification'
+import { Box, Flex } from '../../components/Pancakeswap/uikit/src'
 
 enum PageView {
   POSITIONS = 'positions',

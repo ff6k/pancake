@@ -1,4 +1,8 @@
 import React from 'react'
+import BigNumber from 'bignumber.js'
+import useI18n from 'hooks/useI18n'
+import { getBalanceNumber, formatNumber, getDecimalAmount } from 'utils/formatBalance'
+import { Pool } from 'state/types'
 import {
   Flex,
   Text,
@@ -9,11 +13,7 @@ import {
   Heading,
   useModal,
   Skeleton,
-} from '@pancakeswap-libs/uikit'
-import BigNumber from 'bignumber.js'
-import useI18n from 'hooks/useI18n'
-import { getBalanceNumber, formatNumber, getDecimalAmount } from 'utils/formatBalance'
-import { Pool } from 'state/types'
+} from '../../../../../components/Pancakeswap/uikit/src'
 import NotEnoughTokensModal from '../Modals/NotEnoughTokensModal'
 import StakeModal from '../Modals/StakeModal'
 

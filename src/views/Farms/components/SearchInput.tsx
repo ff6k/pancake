@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
-import { Input } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import debounce from 'lodash/debounce'
+import { Input } from '../../../components/Pancakeswap/uikit/src'
 
 const StyledInput = styled(Input)`
   border-radius: 16px;

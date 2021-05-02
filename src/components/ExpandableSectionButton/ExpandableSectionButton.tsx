@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ChevronDownIcon, ChevronUpIcon, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { ChevronDownIcon, ChevronUpIcon, Text } from '../Pancakeswap/uikit/src'
 
 export interface ExpandableSectionButtonProps {
   onClick?: () => void

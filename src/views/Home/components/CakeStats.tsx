@@ -1,11 +1,11 @@
 import React from 'react'
-import { Card, CardBody, Heading, Text } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useTotalSupply, useBurnedBalance } from 'hooks/useTokenBalance'
 import useI18n from 'hooks/useI18n'
 import { getCakeAddress } from 'utils/addressHelpers'
 import CardValue from './CardValue'
+import { Card, CardBody, Heading, Text } from '../../../components/Pancakeswap/uikit/src'
 
 const StyledCakeStats = styled(Card)`
   margin-left: auto;

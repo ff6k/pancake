@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, CardBody, CardFooter, PancakeRoundIcon, TicketRound } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { DataResponse } from 'utils/getLotteryRoundData'
 import LotteryCardHeading from '../LotteryCardHeading'
 import PastLotteryActions from './PastLotteryActions'
 import PrizeGrid from '../PrizeGrid'
 import Timestamp from '../Timestamp'
+import { Heading, CardBody, CardFooter, PancakeRoundIcon, TicketRound } from '../../../../components/Pancakeswap/uikit/src'
 
 interface PastRoundCardDetailsProps {
   data: DataResponse

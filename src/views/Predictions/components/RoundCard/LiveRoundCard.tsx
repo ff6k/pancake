@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Box, CardBody, Flex, LinkExternal, PlayCircleOutlineIcon, Text, useTooltip } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { Round, BetPosition } from 'state/types'
 import { useBlock, useGetIntervalBlocks } from 'state/hooks'
@@ -14,6 +13,7 @@ import Card from './Card'
 import CardHeader from './CardHeader'
 import CanceledRoundCard from './CanceledRoundCard'
 import CalculatingCard from './CalculatingCard'
+import { Box, CardBody, Flex, LinkExternal, PlayCircleOutlineIcon, Text, useTooltip } from '../../../../components/Pancakeswap/uikit/src'
 
 interface LiveRoundCardProps {
   round: Round

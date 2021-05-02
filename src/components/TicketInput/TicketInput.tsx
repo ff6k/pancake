@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button, Flex, Input, InputProps } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { Button, Flex, Input, InputProps } from '../Pancakeswap/uikit/src'
 
 interface TokenInputProps extends InputProps {
   max: number | string

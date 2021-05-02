@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { Modal, Text, Flex, Image, Button, Slider, BalanceInput, AutoRenewIcon } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { BASE_EXCHANGE_URL } from 'config'
 import { useCakeVaultContract } from 'hooks/useContract'
@@ -14,6 +13,7 @@ import { Pool } from 'state/types'
 import { VaultUser } from 'views/Pools/types'
 import { convertCakeToShares } from '../../helpers'
 import FeeSummary from './FeeSummary'
+import { Modal, Text, Flex, Image, Button, Slider, BalanceInput, AutoRenewIcon } from '../../../../components/Pancakeswap/uikit/src'
 
 interface VaultStakeModalProps {
   pool: Pool

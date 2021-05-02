@@ -1,9 +1,9 @@
 import { InjectedConnector } from '@web3-react/injected-connector'
 import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 import { BscConnector } from '@binance-chain/bsc-connector'
-import { ConnectorNames } from '@pancakeswap-libs/uikit'
 import Web3 from 'web3'
 import getNodeUrl from './getRpcUrl'
+import { ConnectorNames } from '../components/Pancakeswap/uikit/src'
 
 const POLLING_INTERVAL = 12000
 const rpcUrl = getNodeUrl()

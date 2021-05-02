@@ -1,5 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import { CLAIM, OVER } from 'config/constants/trading-competition/easterPhases'
+import UnlockButton from 'components/UnlockButton'
+import useI18n from 'hooks/useI18n'
+import UserPrizeGrid from './UserPrizeGrid'
+import ClaimModal from '../ClaimModal'
+import { YourScoreProps } from '../../types'
+import CardUserInfo from './CardUserInfo'
 import {
   Card,
   CardBody,
@@ -11,14 +18,7 @@ import {
   LaurelRightIcon,
   CheckmarkCircleIcon,
   useModal,
-} from '@pancakeswap-libs/uikit'
-import { CLAIM, OVER } from 'config/constants/trading-competition/easterPhases'
-import UnlockButton from 'components/UnlockButton'
-import useI18n from 'hooks/useI18n'
-import UserPrizeGrid from './UserPrizeGrid'
-import ClaimModal from '../ClaimModal'
-import { YourScoreProps } from '../../types'
-import CardUserInfo from './CardUserInfo'
+} from '../../../../components/Pancakeswap/uikit/src'
 
 const StyledCard = styled(Card)`
   ${({ theme }) => theme.mediaQueries.sm} {

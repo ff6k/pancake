@@ -1,9 +1,9 @@
 import React, { ReactNode, useState } from 'react'
-import { AutoRenewIcon, Button, ButtonProps } from '@pancakeswap-libs/uikit'
 import { useWeb3React } from '@web3-react/core'
 import useI18n from 'hooks/useI18n'
 import { usePredictionsContract } from 'hooks/useContract'
 import useToast from 'hooks/useToast'
+import { AutoRenewIcon, Button, ButtonProps } from '../../../components/Pancakeswap/uikit/src'
 
 interface ReclaimPositionButtonProps extends ButtonProps {
   epoch: number

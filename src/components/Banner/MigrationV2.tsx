@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Flex, Box, ErrorIcon, Button } from '@pancakeswap-libs/uikit'
+import { Text, Flex, Box, ErrorIcon, Button } from '../Pancakeswap/uikit/src'
 import Banner from './Banner'
 
 const MigrationV2 = () => {

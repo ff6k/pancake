@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { useWeb3React } from '@web3-react/core'
 import styled from 'styled-components'
-import { Button, Heading, Text, Flex, Checkbox, AutoRenewIcon } from '@pancakeswap-libs/uikit'
 import { useTradingCompetitionContract } from 'hooks/useContract'
 import useI18n from 'hooks/useI18n'
 import useToast from 'hooks/useToast'
 import { CompetitionProps } from '../../types'
+import { Button, Heading, Text, Flex, Checkbox, AutoRenewIcon } from '../../../../components/Pancakeswap/uikit/src'
 
 const StyledCheckbox = styled(Checkbox)`
   min-width: 24px;

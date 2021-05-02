@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Skeleton, PocketWatchIcon, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Timer from 'components/Timer'
 import getTimePeriods from 'utils/getTimePeriods'
@@ -9,11 +8,12 @@ import { Heading2Text } from '../CompetitionHeadingText'
 import { CompetitionPhaseProps } from '../../types'
 import ProgressStepper from './ProgressStepper'
 import { GOLDGRADIENT } from '../Section/sectionStyles'
+import { Flex, Skeleton, PocketWatchIcon, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const Wrapper = styled(Flex)`
   width: fit-content;
   height: fit-content;
-  background: linear-gradient(180deg, #7645d9 0%, #452a7a 100%);
+  background: linear-gradient(180deg, #7645d9 0%, #ff8800 100%);
   border: 1px solid #7645d9;
   box-sizing: border-box;
   border-radius: 0px 0px 24px 24px;

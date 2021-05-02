@@ -2,6 +2,13 @@ import React, { useState } from 'react'
 import { PromiEvent } from 'web3-core'
 import { Contract } from 'web3-eth-contract'
 import styled from 'styled-components'
+import { useProfile } from 'state/hooks'
+import useI18n from 'hooks/useI18n'
+import { Nft } from 'config/constants/types'
+import InfoRow from '../InfoRow'
+import TransferNftModal from '../TransferNftModal'
+import ClaimNftModal from '../ClaimNftModal'
+import Preview from './Preview'
 import {
   Card,
   CardBody,
@@ -13,14 +20,7 @@ import {
   Text,
   CardFooter,
   useModal,
-} from '@pancakeswap-libs/uikit'
-import { useProfile } from 'state/hooks'
-import useI18n from 'hooks/useI18n'
-import { Nft } from 'config/constants/types'
-import InfoRow from '../InfoRow'
-import TransferNftModal from '../TransferNftModal'
-import ClaimNftModal from '../ClaimNftModal'
-import Preview from './Preview'
+} from '../../../../components/Pancakeswap/uikit/src'
 
 export interface NftCardProps {
   nft: Nft

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Text } from '@pancakeswap-libs/uikit'
 import { useWeb3React } from '@web3-react/core'
 import BigNumber from 'bignumber.js'
 import useI18n from 'hooks/useI18n'
@@ -9,6 +8,7 @@ import styled from 'styled-components'
 import { DEFAULT_TOKEN_DECIMAL } from 'config'
 import CardValue from './CardValue'
 import CardBusdValue from './CardBusdValue'
+import { Text } from '../../../components/Pancakeswap/uikit/src'
 
 const Block = styled.div`
   margin-bottom: 24px;

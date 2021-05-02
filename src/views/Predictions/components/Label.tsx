@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import { BnbUsdtPairTokenIcon, Box, Card, PocketWatchIcon, Text } from '@pancakeswap-libs/uikit'
 import { useBnbUsdtTicker } from 'hooks/ticker'
 import useI18n from 'hooks/useI18n'
 import { formatRoundTime } from '../helpers'
 import useRoundCountdown from '../hooks/useRoundCountdown'
+import { BnbUsdtPairTokenIcon, Box, Card, PocketWatchIcon, Text } from '../../../components/Pancakeswap/uikit/src'
 
 const Token = styled(Box)`
   margin-top: -24px;

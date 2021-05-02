@@ -1,9 +1,9 @@
 import React from 'react'
-import { Heading, Text } from '@pancakeswap-libs/uikit'
 import { useProfile } from 'state/hooks'
 import useI18n from 'hooks/useI18n'
 import HeaderWrapper from 'views/Profile/components/HeaderWrapper'
 import NoProfileCard from './NoProfileCard'
+import { Heading, Text } from '../../../components/Pancakeswap/uikit/src'
 
 const TeamHeader = () => {
   const TranslateString = useI18n()

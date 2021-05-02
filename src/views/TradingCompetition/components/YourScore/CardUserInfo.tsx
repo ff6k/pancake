@@ -1,4 +1,12 @@
 import React, { ReactText } from 'react'
+import styled from 'styled-components'
+import useI18n from 'hooks/useI18n'
+import { LIVE } from 'config/constants/trading-competition/easterPhases'
+import { YourScoreProps } from '../../types'
+import UserRankBox from './UserRankBox'
+import NextRankBox from './NextRankBox'
+import ShareImageModal from '../ShareImageModal'
+import { localiseTradingVolume } from '../../helpers'
 import {
   Text,
   Heading,
@@ -12,15 +20,7 @@ import {
   BlockIcon,
   Button,
   useModal,
-} from '@pancakeswap-libs/uikit'
-import styled from 'styled-components'
-import useI18n from 'hooks/useI18n'
-import { LIVE } from 'config/constants/trading-competition/easterPhases'
-import { YourScoreProps } from '../../types'
-import UserRankBox from './UserRankBox'
-import NextRankBox from './NextRankBox'
-import ShareImageModal from '../ShareImageModal'
-import { localiseTradingVolume } from '../../helpers'
+} from '../../../../components/Pancakeswap/uikit/src'
 
 const TeamRankTextWrapper = styled(Flex)`
   align-items: center;

@@ -1,7 +1,6 @@
 import React, { useCallback } from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
-import { Button, Flex, Heading, IconButton, AddIcon, MinusIcon, useModal } from '@pancakeswap-libs/uikit'
 import { useLocation } from 'react-router-dom'
 import useI18n from 'hooks/useI18n'
 import useStake from 'hooks/useStake'
@@ -9,6 +8,7 @@ import useUnstake from 'hooks/useUnstake'
 import { getBalanceNumber, getFullDisplayBalance } from 'utils/formatBalance'
 import DepositModal from '../DepositModal'
 import WithdrawModal from '../WithdrawModal'
+import { Button, Flex, Heading, IconButton, AddIcon, MinusIcon, useModal } from '../../../../components/Pancakeswap/uikit/src'
 
 interface FarmCardActionsProps {
   stakedBalance?: BigNumber

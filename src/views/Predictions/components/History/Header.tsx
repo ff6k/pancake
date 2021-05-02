@@ -1,6 +1,5 @@
 import React from 'react'
 import { useWeb3React } from '@web3-react/core'
-import { ArrowForwardIcon, Box, Button, Radio, Flex, Heading, Text } from '@pancakeswap-libs/uikit'
 import { useAppDispatch } from 'state'
 import { HistoryFilter } from 'state/types'
 import { setHistoryFilter, setHistoryPaneState, fetchHistory } from 'state/predictions'
@@ -8,6 +7,7 @@ import { useGetHistoryFilter, useGetIsFetchingHistory } from 'state/hooks'
 import useI18n from 'hooks/useI18n'
 import styled from 'styled-components'
 import { getBubbleGumBackground } from '../../helpers'
+import { ArrowForwardIcon, Box, Button, Radio, Flex, Heading, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const Filter = styled.label`
   align-items: center;

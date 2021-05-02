@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
-import { Card, CardBody, Heading, Text } from '@pancakeswap-libs/uikit'
 import { useWeb3React } from '@web3-react/core'
 import useI18n from 'hooks/useI18n'
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
@@ -14,6 +13,7 @@ import NextStepButton from '../components/NextStepButton'
 import ApproveConfirmButtons from '../components/ApproveConfirmButtons'
 import useProfileCreation from './contexts/hook'
 import { MINT_COST, STARTER_BUNNY_IDENTIFIERS } from './config'
+import { Card, CardBody, Heading, Text } from '../../../components/Pancakeswap/uikit/src'
 
 const nfts = nftList.filter((nft) => STARTER_BUNNY_IDENTIFIERS.includes(nft.identifier))
 const minimumCakeBalanceToMint = new BigNumber(MINT_COST).multipliedBy(DEFAULT_TOKEN_DECIMAL)

@@ -1,6 +1,6 @@
 import React from 'react'
-import { ToastContainer } from '@pancakeswap-libs/uikit'
 import useToast from 'hooks/useToast'
+import { ToastContainer } from '../Pancakeswap/uikit/src'
 
 const ToastListener = () => {
   const { toasts, remove } = useToast()

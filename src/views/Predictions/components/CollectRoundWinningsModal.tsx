@@ -1,5 +1,10 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { useWeb3React } from '@web3-react/core'
+import { usePriceBnbBusd } from 'state/hooks'
+import useI18n from 'hooks/useI18n'
+import useToast from 'hooks/useToast'
+import { usePredictionsContract } from 'hooks/useContract'
 import {
   ModalContainer,
   ModalBody,
@@ -15,12 +20,7 @@ import {
   Box,
   LinkExternal,
   ModalCloseButton,
-} from '@pancakeswap-libs/uikit'
-import { useWeb3React } from '@web3-react/core'
-import { usePriceBnbBusd } from 'state/hooks'
-import useI18n from 'hooks/useI18n'
-import useToast from 'hooks/useToast'
-import { usePredictionsContract } from 'hooks/useContract'
+} from '../../../components/Pancakeswap/uikit/src'
 import { formatBnb } from '../helpers'
 
 interface CollectRoundWinningsModalProps extends InjectedModalProps {

@@ -1,5 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import useAuth from 'hooks/useAuth'
+import useI18n from 'hooks/useI18n'
+import { FINISHED, OVER } from 'config/constants/trading-competition/easterPhases'
+import RegisterModal from '../RegisterModal'
+import ClaimModal from '../ClaimModal'
+import { Heading2Text } from '../CompetitionHeadingText'
+import { CompetitionProps } from '../../types'
 import {
   Card,
   CardBody,
@@ -10,18 +17,11 @@ import {
   CheckmarkCircleIcon,
   useWalletModal,
   useModal,
-} from '@pancakeswap-libs/uikit'
-import useAuth from 'hooks/useAuth'
-import useI18n from 'hooks/useI18n'
-import { FINISHED, OVER } from 'config/constants/trading-competition/easterPhases'
-import RegisterModal from '../RegisterModal'
-import ClaimModal from '../ClaimModal'
-import { Heading2Text } from '../CompetitionHeadingText'
-import { CompetitionProps } from '../../types'
+} from '../../../../components/Pancakeswap/uikit/src'
 
 const StyledCard = styled(Card)`
   display: inline-flex;
-  background: linear-gradient(180deg, #7645d9 0%, #452a7a 100%);
+  background: linear-gradient(180deg, #7645d9 0%, #ff8800 100%);
 
   svg {
     margin-bottom: 6px;

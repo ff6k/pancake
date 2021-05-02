@@ -1,8 +1,8 @@
 import React from 'react'
-import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon } from '@pancakeswap-libs/uikit'
 import { BASE_ADD_LIQUIDITY_URL } from 'config'
 import { Token } from 'config/constants/types'
 import useI18n from 'hooks/useI18n'
+import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon } from '../../../../../components/Pancakeswap/uikit/src'
 
 interface Props {
   currency: Token

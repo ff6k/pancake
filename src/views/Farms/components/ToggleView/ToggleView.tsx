@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ListViewIcon, CardViewIcon, IconButton } from '@pancakeswap-libs/uikit'
 import { ViewMode } from '../types'
+import { ListViewIcon, CardViewIcon, IconButton } from '../../../../components/Pancakeswap/uikit/src'
 
 interface ToggleViewProps {
   viewMode: ViewMode

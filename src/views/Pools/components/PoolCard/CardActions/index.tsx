@@ -1,13 +1,13 @@
 import BigNumber from 'bignumber.js'
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Text, Box } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { PoolCategory } from 'config/constants/types'
 import { Pool } from 'state/types'
 import ApprovalAction from './ApprovalAction'
 import StakeActions from './StakeActions'
 import HarvestActions from './HarvestActions'
+import { Flex, Text, Box } from '../../../../../components/Pancakeswap/uikit/src'
 
 const InlineText = styled(Text)`
   display: inline;

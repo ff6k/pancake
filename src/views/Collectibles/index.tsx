@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import NftList from './components/NftList'
+import { Heading } from '../../components/Pancakeswap/uikit/src'
 
 const StyledHero = styled.div`
   border-bottom: 2px solid ${({ theme }) => theme.colors.textSubtle};

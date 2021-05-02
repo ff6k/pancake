@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import useI18n from 'hooks/useI18n'
 import {
   BlockIcon,
   CheckmarkCircleIcon,
@@ -8,8 +9,7 @@ import {
   Text,
   TeamPlayerIcon,
   TrophyGoldIcon,
-} from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
+} from '../../../../components/Pancakeswap/uikit/src'
 import { UserTradingInformationProps } from '../../types'
 import { useCompetitionCakeRewards, getRewardGroupAchievements } from '../../helpers'
 import { BoldTd, Td, StyledPrizeTable } from '../StyledPrizeTable'

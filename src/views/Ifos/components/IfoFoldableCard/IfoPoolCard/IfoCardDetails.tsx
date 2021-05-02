@@ -1,9 +1,9 @@
 import React from 'react'
-import { Text, Flex, Box } from '@pancakeswap-libs/uikit'
 import { PublicIfoData } from 'hooks/ifo/types'
 import useI18n from 'hooks/useI18n'
 import { Ifo, PoolIds } from 'config/constants/types'
 import { getBalanceNumber, formatNumber } from 'utils/formatBalance'
+import { Text, Flex, Box } from '../../../../../components/Pancakeswap/uikit/src'
 import { SkeletonCardDetails } from './Skeletons'
 
 export interface IfoCardDetailsProps {

@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
-import { Flex, Text } from '@pancakeswap-libs/uikit'
 import styled, { DefaultTheme } from 'styled-components'
+import { Flex, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 type Status = 'expired' | 'live' | 'next' | 'soon' | 'canceled' | 'calculating'
 

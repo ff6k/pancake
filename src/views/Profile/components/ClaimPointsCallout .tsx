@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { sumBy } from 'lodash'
 import { useAppDispatch } from 'state'
 import { useWeb3React } from '@web3-react/core'
-import { Card, CardBody, CardHeader, Flex, Heading, PrizeIcon } from '@pancakeswap-libs/uikit'
 import { useProfile } from 'state/hooks'
 import { Achievement } from 'state/types'
 import { addPoints } from 'state/profile'
@@ -10,6 +9,7 @@ import { addAchievement } from 'state/achievements'
 import useI18n from 'hooks/useI18n'
 import { getClaimableIfoData } from 'utils/achievements'
 import AchievementRow from './AchievementRow'
+import { Card, CardBody, CardHeader, Flex, Heading, PrizeIcon } from '../../../components/Pancakeswap/uikit/src'
 
 const ClaimPointsCallout = () => {
   const [claimableAchievements, setClaimableAchievement] = useState<Achievement[]>([])

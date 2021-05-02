@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useWeb3React } from '@web3-react/core'
 import styled from 'styled-components'
-import { Flex, TrophyGoldIcon } from '@pancakeswap-libs/uikit'
 import { useAppDispatch } from 'state'
 import { useGetCurrentEpoch } from 'state/hooks'
 import { getBetHistory, transformBetResponse } from 'state/predictions/helpers'
@@ -9,6 +8,7 @@ import { markBetAsCollected } from 'state/predictions'
 import useI18n from 'hooks/useI18n'
 import CollectWinningsButton from '../CollectWinningsButton'
 import { getPayout } from '../../helpers'
+import { Flex, TrophyGoldIcon } from '../../../../components/Pancakeswap/uikit/src'
 
 interface CollectWinningsOverlayProps {
   roundId: string

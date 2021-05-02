@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
-import { Button, Flex, Heading } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useHarvest } from 'hooks/useHarvest'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useWeb3React } from '@web3-react/core'
 import { usePriceCakeBusd } from 'state/hooks'
 import CardBusdValue from '../../../Home/components/CardBusdValue'
+import { Button, Flex, Heading } from '../../../../components/Pancakeswap/uikit/src'
 
 interface FarmCardActionsProps {
   earnings?: BigNumber

@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { Button, Skeleton } from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js'
 import { FarmWithStakedValue } from 'views/Farms/components/FarmCard/FarmCard'
 import { getBalanceNumber } from 'utils/formatBalance'
@@ -7,6 +6,7 @@ import { useHarvest } from 'hooks/useHarvest'
 import useI18n from 'hooks/useI18n'
 import { usePriceCakeBusd } from 'state/hooks'
 import { useCountUp } from 'react-countup'
+import { Button, Skeleton } from '../../../../../components/Pancakeswap/uikit/src'
 
 import { ActionContainer, ActionTitles, Title, Subtle, ActionContent, Earned, Staked } from './styles'
 

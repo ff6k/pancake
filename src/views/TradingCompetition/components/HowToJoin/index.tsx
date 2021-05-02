@@ -1,8 +1,8 @@
 import React from 'react'
-import { Flex, Text, Heading, Link } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'
 import HowToCard from './HowToCard'
+import { Flex, Text, Heading, Link } from '../../../../components/Pancakeswap/uikit/src'
 
 const StyledLink = styled(Link)`
   display: inline;

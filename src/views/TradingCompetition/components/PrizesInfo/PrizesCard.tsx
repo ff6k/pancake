@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Card, CardHeader, Box, Heading, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { Card, CardHeader, Box, Heading, Text } from '../../../../components/Pancakeswap/uikit/src'
 import PrizesGrid from './PrizesGrid'
 
 const StyledCard = styled(Card)`

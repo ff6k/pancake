@@ -1,13 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useWeb3React } from '@web3-react/core'
 import styled, { css, keyframes } from 'styled-components'
-import { Button, CloseIcon, IconButton, TrophyGoldIcon } from '@pancakeswap-libs/uikit'
 import { CSSTransition } from 'react-transition-group'
 import useI18n from 'hooks/useI18n'
 import { getBetHistory } from 'state/predictions/helpers'
 import { useGetPredictionsStatus, useIsHistoryPaneOpen } from 'state/hooks'
 import { useAppDispatch } from 'state'
 import { setHistoryPaneState } from 'state/predictions'
+import { Button, CloseIcon, IconButton, TrophyGoldIcon } from '../../../components/Pancakeswap/uikit/src'
 
 /**
  * @see https://github.com/animate-css/animate.css/tree/main/source

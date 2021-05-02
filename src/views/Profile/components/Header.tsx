@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button, Flex, Heading, useModal, Won } from '@pancakeswap-libs/uikit'
 import { useProfile } from 'state/hooks'
 import useI18n from 'hooks/useI18n'
+import { Button, Flex, Heading, useModal, Won } from '../../../components/Pancakeswap/uikit/src'
 import ClaimNftAndCakeModal, { useCanClaim } from './ClaimGiftModal'
 import HeaderWrapper from './HeaderWrapper'
 import EditProfileModal from './EditProfileModal'

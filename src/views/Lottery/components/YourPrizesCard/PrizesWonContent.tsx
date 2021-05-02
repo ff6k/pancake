@@ -1,12 +1,12 @@
 import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
-import { Button, Heading, Won, useModal } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useMultiClaimLottery } from 'hooks/useBuyLottery'
 import useTickets, { useTotalClaim } from 'hooks/useTickets'
 import Loading from '../Loading'
 import MyTicketsModal from '../TicketCard/UserTicketsModal'
+import { Button, Heading, Won, useModal } from '../../../../components/Pancakeswap/uikit/src'
 
 const WinningsWrapper = styled.div`
   display: flex;

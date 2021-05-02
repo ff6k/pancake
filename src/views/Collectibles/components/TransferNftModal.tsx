@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import Web3 from 'web3'
 import { useWeb3React } from '@web3-react/core'
-import { Button, Input, Modal, Text } from '@pancakeswap-libs/uikit'
 import { getAddressByType } from 'utils/collectibles'
 import { Nft } from 'config/constants/types'
 import useI18n from 'hooks/useI18n'
 import useToast from 'hooks/useToast'
 import { useERC721 } from 'hooks/useContract'
 import InfoRow from './InfoRow'
+import { Button, Input, Modal, Text } from '../../../components/Pancakeswap/uikit/src'
 
 interface TransferNftModalProps {
   nft: Nft

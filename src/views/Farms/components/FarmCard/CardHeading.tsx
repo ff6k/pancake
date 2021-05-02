@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Tag, Flex, Heading, Image } from '@pancakeswap-libs/uikit'
 import { CommunityTag, CoreTag } from 'components/Tags'
+import { Tag, Flex, Heading, Image } from '../../../../components/Pancakeswap/uikit/src'
 
 export interface ExpandableSectionProps {
   lpLabel?: string

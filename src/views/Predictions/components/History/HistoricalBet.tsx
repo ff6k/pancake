@@ -1,14 +1,5 @@
 import React, { useState } from 'react'
 import { useWeb3React } from '@web3-react/core'
-import {
-  Box,
-  ChevronDownIcon,
-  ChevronUpIcon,
-  Flex,
-  IconButton,
-  PlayCircleOutlineIcon,
-  Text,
-} from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import { useAppDispatch } from 'state'
 import { markBetAsCollected } from 'state/predictions'
@@ -20,6 +11,15 @@ import CollectWinningsButton from '../CollectWinningsButton'
 import ReclaimPositionButton from '../ReclaimPositionButton'
 import BetDetails from './BetDetails'
 import { Result } from './BetResult'
+import {
+  Box,
+  ChevronDownIcon,
+  ChevronUpIcon,
+  Flex,
+  IconButton,
+  PlayCircleOutlineIcon,
+  Text,
+} from '../../../../components/Pancakeswap/uikit/src'
 
 interface BetProps {
   bet: Bet

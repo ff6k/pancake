@@ -1,9 +1,9 @@
 import React from 'react'
 import styled, { DefaultTheme } from 'styled-components'
 import { Link } from 'react-router-dom'
-import { Button, Card, CommunityIcon, Flex, Heading, PrizeIcon, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { Team } from 'config/constants/types'
+import { Button, Card, CommunityIcon, Flex, Heading, PrizeIcon, Text } from '../../../components/Pancakeswap/uikit/src'
 
 interface TeamCardProps {
   rank: number

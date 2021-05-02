@@ -1,6 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useWeb3React } from '@web3-react/core'
+import useI18n from 'hooks/useI18n'
+import { useProfile } from 'state/hooks'
+import usePersistState from 'hooks/usePersistState'
+import Menu from './components/Menu'
+import CardHeader from './components/CardHeader'
+import Collectibles from './components/Collectibles'
+import WalletNotConnected from './components/WalletNotConnected'
+import StatBox from './components/StatBox'
+import EditProfileAvatar from './components/EditProfileAvatar'
+import AchievementsList from './components/AchievementsList'
 import {
   Card,
   CardBody,
@@ -15,17 +25,7 @@ import {
   BlockIcon,
   VisibilityOn,
   VisibilityOff,
-} from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
-import { useProfile } from 'state/hooks'
-import usePersistState from 'hooks/usePersistState'
-import Menu from './components/Menu'
-import CardHeader from './components/CardHeader'
-import Collectibles from './components/Collectibles'
-import WalletNotConnected from './components/WalletNotConnected'
-import StatBox from './components/StatBox'
-import EditProfileAvatar from './components/EditProfileAvatar'
-import AchievementsList from './components/AchievementsList'
+} from '../../components/Pancakeswap/uikit/src'
 
 const Content = styled.div`
   flex: 1;

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { useWeb3React } from '@web3-react/core'
-import { AutoRenewIcon, Button, Flex, InjectedModalProps, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useCake } from 'hooks/useContract'
 import useToast from 'hooks/useToast'
@@ -9,6 +8,7 @@ import { getPancakeProfileAddress } from 'utils/addressHelpers'
 import { getFullDisplayBalance } from 'utils/formatBalance'
 import useGetProfileCosts from 'hooks/useGetProfileCosts'
 import { UseEditProfileResponse } from './reducer'
+import { AutoRenewIcon, Button, Flex, InjectedModalProps, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 interface ApproveCakePageProps extends InjectedModalProps {
   goToChange: UseEditProfileResponse['goToChange']

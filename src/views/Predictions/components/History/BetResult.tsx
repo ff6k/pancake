@@ -1,6 +1,5 @@
 import React from 'react'
 import { useWeb3React } from '@web3-react/core'
-import { Box, Flex, Heading, Text, PrizeIcon, BlockIcon } from '@pancakeswap-libs/uikit'
 import { useAppDispatch } from 'state'
 import useI18n from 'hooks/useI18n'
 import { usePriceBnbBusd } from 'state/hooks'
@@ -12,6 +11,7 @@ import { formatBnb, getPayout } from '../../helpers'
 import CollectWinningsButton from '../CollectWinningsButton'
 import PositionTag from '../PositionTag'
 import ReclaimPositionButton from '../ReclaimPositionButton'
+import { Box, Flex, Heading, Text, PrizeIcon, BlockIcon } from '../../../../components/Pancakeswap/uikit/src'
 
 export enum Result {
   WIN = 'win',

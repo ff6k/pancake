@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { useWeb3React } from '@web3-react/core'
 import BigNumber from 'bignumber.js'
 import { ethers } from 'ethers'
-import { Modal, ModalBody, Text, Image, Button, BalanceInput, Flex } from '@pancakeswap-libs/uikit'
 import { PoolIds, Ifo } from 'config/constants/types'
 import { WalletIfoData, PublicIfoData } from 'hooks/ifo/types'
 import useI18n from 'hooks/useI18n'
@@ -12,6 +11,7 @@ import ApproveConfirmButtons from 'views/Profile/components/ApproveConfirmButton
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
 import { DEFAULT_TOKEN_DECIMAL } from 'config'
 import { useERC20 } from 'hooks/useContract'
+import { Modal, ModalBody, Text, Image, Button, BalanceInput, Flex } from '../../../../../components/Pancakeswap/uikit/src'
 
 interface Props {
   poolId: PoolIds

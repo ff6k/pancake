@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useWeb3React } from '@web3-react/core'
 import { useProfile } from 'state/hooks'
-import { Flex, Box, Image } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import { useTradingCompetitionContract } from 'hooks/useContract'
 import useTheme from 'hooks/useTheme'
@@ -38,6 +37,7 @@ import BattleCta from './components/BattleCta'
 import PrizesInfo from './components/PrizesInfo'
 import Rules from './components/Rules'
 import TeamRanks from './components/TeamRanks'
+import { Flex, Box, Image } from '../../components/Pancakeswap/uikit/src'
 
 const CompetitionPage = styled.div`
   min-height: calc(100vh - 64px);

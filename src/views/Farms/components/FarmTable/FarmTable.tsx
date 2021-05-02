@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import styled from 'styled-components'
-import { useTable, Button, ChevronUpIcon, ColumnType } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { useTable, Button, ChevronUpIcon, ColumnType } from '../../../../components/Pancakeswap/uikit/src'
 
 import Row, { RowProps } from './Row'
 

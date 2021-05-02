@@ -1,7 +1,7 @@
 import React from 'react'
-import { Heading, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import UnlockButton from 'components/UnlockButton'
+import { Heading, Text } from '../../../components/Pancakeswap/uikit/src'
 
 const WalletNotConnected = () => {
   const TranslateString = useI18n()

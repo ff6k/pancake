@@ -1,5 +1,5 @@
 import React from 'react'
-import { Svg, SvgProps } from '@pancakeswap-libs/uikit'
+import { Svg, SvgProps } from '../../../components/Pancakeswap/uikit/src'
 
 const Ranks: React.FC<SvgProps> = (props) => {
   return (

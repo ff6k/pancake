@@ -1,10 +1,10 @@
 import React from 'react'
 import styled, { CSSProperties } from 'styled-components'
-import { Box, Flex, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { BetPosition } from 'state/types'
 import { RoundMultiplierDownArrow, RoundMultiplierUpArrow } from '../../RoundMultiplierArrows'
 import EnteredTag from './EnteredTag'
+import { Box, Flex, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 interface MultiplierArrowProps {
   amount?: number

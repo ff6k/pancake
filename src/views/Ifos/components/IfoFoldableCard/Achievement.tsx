@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, LinkExternal, Image, Text, PrizeIcon } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { PublicIfoData } from 'hooks/ifo/types'
 import { Ifo } from 'config/constants/types'
 import { BIG_TEN } from 'utils/bigNumber'
+import { Flex, LinkExternal, Image, Text, PrizeIcon } from '../../../../components/Pancakeswap/uikit/src'
 
 const MIN_DOLLAR_FOR_ACHIEVEMENT = BIG_TEN
 

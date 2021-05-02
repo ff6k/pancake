@@ -1,6 +1,6 @@
 import React from 'react'
-import { Text } from '@pancakeswap-libs/uikit'
 import getTimePeriods from 'utils/getTimePeriods'
+import { Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const WithdrawalFeeTimer: React.FC<{ secondsRemaining: number }> = ({ secondsRemaining }) => {
   const { days, hours, minutes } = getTimePeriods(secondsRemaining)

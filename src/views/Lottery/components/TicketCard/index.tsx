@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Card, CardBody, TicketRound, Text, Heading } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import useGetLotteryHasDrawn from 'hooks/useGetLotteryHasDrawn'
 import useTickets from 'hooks/useTickets'
 import { useCurrentTime } from 'hooks/useTimer'
+import { Card, CardBody, TicketRound, Text, Heading } from '../../../../components/Pancakeswap/uikit/src'
 import TicketActions from './TicketActions'
 import { getTicketSaleTime } from '../../helpers/CountdownHelpers'
 

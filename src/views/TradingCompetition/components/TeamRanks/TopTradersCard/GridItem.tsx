@@ -1,6 +1,6 @@
 import React from 'react'
-import { Heading, Text, Flex } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
+import { Heading, Text, Flex } from '../../../../../components/Pancakeswap/uikit/src'
 import { LeaderboardDataItem } from '../../../types'
 import { localiseTradingVolume, accountEllipsis } from '../../../helpers'
 

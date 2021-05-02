@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '@pancakeswap-libs/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { Link } from 'react-router-dom'
 import { Ifo, PoolIds } from 'config/constants/types'
@@ -8,6 +7,7 @@ import UnlockButton from 'components/UnlockButton'
 import ContributeButton from './ContributeButton'
 import ClaimButton from './ClaimButton'
 import { SkeletonCardActions } from './Skeletons'
+import { Button } from '../../../../../components/Pancakeswap/uikit/src'
 
 interface Props {
   poolId: PoolIds

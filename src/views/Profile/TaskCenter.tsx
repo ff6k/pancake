@@ -1,10 +1,10 @@
 import React from 'react'
-import { Card, CardBody, CardHeader, Flex, Heading, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import AchievementsList from './components/AchievementsList'
 import ClaimPointsCallout from './components/ClaimPointsCallout '
 import ComingSoon from './components/ComingSoon'
 import Menu from './components/Menu'
+import { Card, CardBody, CardHeader, Flex, Heading, Text } from '../../components/Pancakeswap/uikit/src'
 
 const TaskCenter = () => {
   const TranslateString = useI18n()

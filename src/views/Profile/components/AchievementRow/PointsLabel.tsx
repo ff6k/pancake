@@ -1,6 +1,6 @@
 import React from 'react'
-import { Flex, FlexProps, PrizeIcon, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { Flex, FlexProps, PrizeIcon, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 interface PointsLabelProps extends FlexProps {
   points: number

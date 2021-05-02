@@ -1,6 +1,5 @@
 import BigNumber from 'bignumber.js'
 import React from 'react'
-import { CardBody, Flex, Text, CardRibbon } from '@pancakeswap-libs/uikit'
 import UnlockButton from 'components/UnlockButton'
 import useI18n from 'hooks/useI18n'
 import { getAddress } from 'utils/addressHelpers'
@@ -11,6 +10,7 @@ import StyledCard from './StyledCard'
 import CardFooter from './CardFooter'
 import StyledCardHeader from './StyledCardHeader'
 import CardActions from './CardActions'
+import { CardBody, Flex, Text, CardRibbon } from '../../../../components/Pancakeswap/uikit/src'
 
 const PoolCard: React.FC<{ pool: Pool; account: string }> = ({ pool, account }) => {
   const { sousId, stakingToken, earningToken, isFinished, userData } = pool

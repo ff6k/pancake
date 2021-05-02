@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import useI18n from 'hooks/useI18n'
 import {
   Card,
   CardFooter,
@@ -10,8 +11,7 @@ import {
   Box,
   Flex,
   ExpandableLabel,
-} from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
+} from '../../../../../components/Pancakeswap/uikit/src'
 import { TeamRanksProps } from '../../../types'
 import TopTradersGrid from './TopTradersGrid'
 

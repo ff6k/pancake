@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react'
-import { Button, Modal } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import { useWinningNumbers } from 'hooks/useTickets'
 import useI18n from 'hooks/useI18n'
+import { Button, Modal } from '../../../../components/Pancakeswap/uikit/src'
 
 interface UserTicketsModalProps {
   myTicketNumbers: Array<any>

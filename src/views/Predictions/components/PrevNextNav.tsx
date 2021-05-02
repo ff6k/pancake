@@ -1,8 +1,8 @@
 import React from 'react'
-import { ArrowBackIcon, ArrowForwardIcon, BunnyCardsIcon, Card, IconButton } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import { useGetCurrentEpoch, useGetSortedRounds } from 'state/hooks'
 import useSwiper from '../hooks/useSwiper'
+import { ArrowBackIcon, ArrowForwardIcon, BunnyCardsIcon, Card, IconButton } from '../../../components/Pancakeswap/uikit/src'
 
 const StyledPrevNextNav = styled(Card)`
   align-items: center;

@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useLocation, Link, useRouteMatch } from 'react-router-dom'
-import { ButtonMenu, ButtonMenuItem, NotificationDot } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import { ButtonMenu, ButtonMenuItem, NotificationDot } from '../../../../components/Pancakeswap/uikit/src'
 
 interface FarmTabButtonsProps {
   hasStakeInFinishedFarms: boolean

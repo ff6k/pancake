@@ -1,8 +1,8 @@
 import React from 'react'
-import { Heading, Button, Text } from '@pancakeswap-libs/uikit'
 import history from 'routerHistory'
 import useI18n from 'hooks/useI18n'
 import { CompetitionProps } from 'views/TradingCompetition/types'
+import { Heading, Button, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const ReactivateProfile: React.FC<CompetitionProps> = ({ onDismiss }) => {
   const TranslateString = useI18n()

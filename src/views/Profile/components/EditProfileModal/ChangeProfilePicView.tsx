@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Button, InjectedModalProps, Skeleton, Text } from '@pancakeswap-libs/uikit'
 import { useWeb3React } from '@web3-react/core'
 import { useAppDispatch } from 'state'
 import { useGetCollectibles, useProfile } from 'state/hooks'
@@ -12,6 +11,7 @@ import { useERC721, useProfile as useProfileContract } from 'hooks/useContract'
 import { getPancakeProfileAddress } from 'utils/addressHelpers'
 import SelectionCard from '../SelectionCard'
 import ApproveConfirmButtons from '../ApproveConfirmButtons'
+import { Button, InjectedModalProps, Skeleton, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 type ChangeProfilePicPageProps = InjectedModalProps
 

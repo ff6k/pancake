@@ -1,6 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import every from 'lodash/every'
+import { BASE_ADD_LIQUIDITY_URL } from 'config'
+import { Ifo } from 'config/constants/types'
+import { WalletIfoData } from 'hooks/ifo/types'
+import useI18n from 'hooks/useI18n'
+import useTokenBalance from 'hooks/useTokenBalance'
+import Container from 'components/layout/Container'
+import { useProfile } from 'state/hooks'
+import { getAddress } from 'utils/addressHelpers'
 import {
   Stepper,
   Step,
@@ -12,15 +20,7 @@ import {
   Button,
   Link,
   OpenNewIcon,
-} from '@pancakeswap-libs/uikit'
-import { BASE_ADD_LIQUIDITY_URL } from 'config'
-import { Ifo } from 'config/constants/types'
-import { WalletIfoData } from 'hooks/ifo/types'
-import useI18n from 'hooks/useI18n'
-import useTokenBalance from 'hooks/useTokenBalance'
-import Container from 'components/layout/Container'
-import { useProfile } from 'state/hooks'
-import { getAddress } from 'utils/addressHelpers'
+} from '../../../components/Pancakeswap/uikit/src'
 
 interface Props {
   ifo: Ifo

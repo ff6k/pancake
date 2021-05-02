@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex } from '@pancakeswap-libs/uikit'
 import Page from 'components/layout/Page'
 import { SectionProps } from '../../types'
 import IntersectionCurve from './IntersectionCurve'
+import { Flex } from '../../../../components/Pancakeswap/uikit/src'
 
 const BackgroundColorWrapper = styled(Flex)<SectionProps>`
   position: relative;

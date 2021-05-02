@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import { Box } from '@pancakeswap-libs/uikit'
 import { DefaultTheme, useTheme } from 'styled-components'
+import { Box } from '../../../components/Pancakeswap/uikit/src'
 
 /**
  * When the script tag is injected the TradingView object is not immediately

@@ -1,5 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import useI18n from 'hooks/useI18n'
+import useRefresh from 'hooks/useRefresh'
+import useGetVaultFees from 'hooks/cakeVault/useGetVaultFees'
+import useGetVaultBountyInfo from 'hooks/cakeVault/useGetVaultBountyInfo'
+import BountyModal from './BountyModal'
 import {
   Card,
   CardBody,
@@ -12,12 +17,7 @@ import {
   useModal,
   Box,
   useTooltip,
-} from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
-import useRefresh from 'hooks/useRefresh'
-import useGetVaultFees from 'hooks/cakeVault/useGetVaultFees'
-import useGetVaultBountyInfo from 'hooks/cakeVault/useGetVaultBountyInfo'
-import BountyModal from './BountyModal'
+} from '../../../components/Pancakeswap/uikit/src'
 
 const StyledCard = styled(Card)`
   width: 100%;

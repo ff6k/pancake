@@ -1,10 +1,10 @@
 import React from 'react'
 import _uniqueId from 'lodash/uniqueId'
 import styled from 'styled-components'
-import { Flex } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { CountdownProps } from '../../types'
 import Step from './Step'
+import { Flex } from '../../../../components/Pancakeswap/uikit/src'
 
 const Spacer = styled.div<{ isPastSpacer?: boolean }>`
   margin: 12px 8px 0 8px;

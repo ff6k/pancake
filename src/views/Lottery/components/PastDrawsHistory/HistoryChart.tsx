@@ -1,10 +1,10 @@
 import React, { lazy, Suspense, useContext, useMemo } from 'react'
 import styled from 'styled-components'
-import { Text } from '@pancakeswap-libs/uikit'
 import PastLotteryDataContext from 'contexts/PastLotteryDataContext'
 import useI18n from 'hooks/useI18n'
 import useTheme from 'hooks/useTheme'
 import Loading from '../Loading'
+import { Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const Line = lazy(() => import('./LineChartWrapper'))
 const Bar = lazy(() => import('./BarChartWrapper'))

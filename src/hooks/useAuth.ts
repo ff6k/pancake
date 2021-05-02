@@ -9,12 +9,12 @@ import {
   UserRejectedRequestError as UserRejectedRequestErrorWalletConnect,
   WalletConnectConnector,
 } from '@web3-react/walletconnect-connector'
-import { ConnectorNames, connectorLocalStorageKey } from '@pancakeswap-libs/uikit'
 import { connectorsByName } from 'utils/web3React'
 import { setupNetwork } from 'utils/wallet'
 import useToast from 'hooks/useToast'
 import { profileClear } from 'state/profile'
 import { useAppDispatch } from 'state'
+import { ConnectorNames, connectorLocalStorageKey } from '../components/Pancakeswap/uikit/src'
 
 const useAuth = () => {
   const dispatch = useAppDispatch()

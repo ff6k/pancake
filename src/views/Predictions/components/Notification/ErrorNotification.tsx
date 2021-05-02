@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button, Text } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useAppDispatch } from 'state'
 import { setHistoryPaneState } from 'state/predictions'
 import Notification from './Notification'
+import { Button, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const ErrorNotification = () => {
   const TranslateString = useI18n()

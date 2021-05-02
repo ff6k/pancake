@@ -5,7 +5,6 @@ import BigNumber from 'bignumber.js'
 import { useLocation } from 'react-router-dom'
 import { getAddress } from 'utils/addressHelpers'
 import { getBep20Contract } from 'utils/contractHelpers'
-import { Button, Flex, Text } from '@pancakeswap-libs/uikit'
 import { Farm } from 'state/types'
 import useI18n from 'hooks/useI18n'
 import useWeb3 from 'hooks/useWeb3'
@@ -13,6 +12,7 @@ import { useApprove } from 'hooks/useApprove'
 import UnlockButton from 'components/UnlockButton'
 import StakeAction from './StakeAction'
 import HarvestAction from './HarvestAction'
+import { Button, Flex, Text } from '../../../../components/Pancakeswap/uikit/src'
 
 const Action = styled.div`
   padding-top: 16px;

@@ -1,7 +1,6 @@
 import BigNumber from 'bignumber.js'
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import { Flex, Text, Box } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useCake, useCakeVaultContract } from 'hooks/useContract'
 import { VaultFees } from 'hooks/cakeVault/useGetVaultFees'
@@ -9,6 +8,7 @@ import { Pool } from 'state/types'
 import { VaultUser } from 'views/Pools/types'
 import VaultApprovalAction from './VaultApprovalAction'
 import VaultStakeActions from './VaultStakeActions'
+import { Flex, Text, Box } from '../../../../../components/Pancakeswap/uikit/src'
 
 const InlineText = styled(Text)`
   display: inline;

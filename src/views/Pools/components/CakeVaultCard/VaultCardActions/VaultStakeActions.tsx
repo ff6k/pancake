@@ -1,5 +1,4 @@
 import React from 'react'
-import { Flex, Button, useModal, Skeleton } from '@pancakeswap-libs/uikit'
 import BigNumber from 'bignumber.js'
 import useI18n from 'hooks/useI18n'
 import { Pool } from 'state/types'
@@ -8,6 +7,7 @@ import { VaultUser } from 'views/Pools/types'
 import NotEnoughTokensModal from '../../PoolCard/Modals/NotEnoughTokensModal'
 import VaultStakeModal from '../VaultStakeModal'
 import HasSharesActions from './HasSharesActions'
+import { Flex, Button, useModal, Skeleton } from '../../../../../components/Pancakeswap/uikit/src'
 
 interface VaultStakeActionsProps {
   pool: Pool

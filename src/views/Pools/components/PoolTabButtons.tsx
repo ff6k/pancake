@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useRouteMatch, Link } from 'react-router-dom'
+import useI18n from 'hooks/useI18n'
 import {
   ButtonMenu,
   ButtonMenuItem,
@@ -11,8 +12,7 @@ import {
   Flex,
   NotificationDot,
   Link as UiKitLink,
-} from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
+} from '../../../components/Pancakeswap/uikit/src'
 
 const ButtonText = styled(Text)`
   display: none;

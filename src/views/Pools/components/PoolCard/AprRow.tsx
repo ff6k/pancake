@@ -1,5 +1,4 @@
 import React from 'react'
-import { Flex, Text, IconButton, useModal, CalculateIcon, Skeleton, useTooltip } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { getPoolApr } from 'utils/apr'
@@ -10,6 +9,7 @@ import Balance from 'components/Balance'
 import ApyCalculatorModal from 'components/ApyCalculatorModal'
 import { Pool } from 'state/types'
 import { BASE_EXCHANGE_URL } from 'config'
+import { Flex, Text, IconButton, useModal, CalculateIcon, Skeleton, useTooltip } from '../../../../components/Pancakeswap/uikit/src'
 
 interface AprRowProps {
   pool: Pool

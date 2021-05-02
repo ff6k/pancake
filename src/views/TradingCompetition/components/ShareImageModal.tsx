@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react'
-import { Modal, Flex, Button, Text, Skeleton, Box } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'
+import { Modal, Flex, Button, Text, Skeleton, Box } from '../../../components/Pancakeswap/uikit/src'
 import FlippersShare from '../pngs/flippers-share.png'
 import StormShare from '../pngs/storm-share.png'
 import CakersShare from '../pngs/cakers-share.png'

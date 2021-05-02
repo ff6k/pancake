@@ -1,8 +1,8 @@
 import React from 'react'
-import { Text, Flex, Box } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import { LeaderboardDataItem } from '../../../types'
 import { localiseTradingVolume, accountEllipsis } from '../../../helpers'
+import { Text, Flex, Box } from '../../../../../components/Pancakeswap/uikit/src'
 
 const Wrapper = styled.div`
   position: relative;

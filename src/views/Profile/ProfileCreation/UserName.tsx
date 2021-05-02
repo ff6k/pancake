@@ -1,6 +1,17 @@
 import React, { ChangeEvent, useEffect, useState } from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
+import { parseISO, formatDistance } from 'date-fns'
+import { useWeb3React } from '@web3-react/core'
+import useToast from 'hooks/useToast'
+import useWeb3 from 'hooks/useWeb3'
+import useI18n from 'hooks/useI18n'
+import useHasCakeBalance from 'hooks/useHasCakeBalance'
+import { DEFAULT_TOKEN_DECIMAL } from 'config'
+import debounce from 'lodash/debounce'
+import ConfirmProfileCreationModal from '../components/ConfirmProfileCreationModal'
+import useProfileCreation from './contexts/hook'
+import { USERNAME_MIN_LENGTH, USERNAME_MAX_LENGTH, REGISTER_COST } from './config'
 import {
   Card,
   CardBody,
@@ -15,18 +26,7 @@ import {
   useModal,
   Skeleton,
   Checkbox,
-} from '@pancakeswap-libs/uikit'
-import { parseISO, formatDistance } from 'date-fns'
-import { useWeb3React } from '@web3-react/core'
-import useToast from 'hooks/useToast'
-import useWeb3 from 'hooks/useWeb3'
-import useI18n from 'hooks/useI18n'
-import useHasCakeBalance from 'hooks/useHasCakeBalance'
-import { DEFAULT_TOKEN_DECIMAL } from 'config'
-import debounce from 'lodash/debounce'
-import ConfirmProfileCreationModal from '../components/ConfirmProfileCreationModal'
-import useProfileCreation from './contexts/hook'
-import { USERNAME_MIN_LENGTH, USERNAME_MAX_LENGTH, REGISTER_COST } from './config'
+} from '../../../components/Pancakeswap/uikit/src'
 
 enum ExistingUserState {
   IDLE = 'idle', // initial state

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Box, Skeleton } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
+import { Box, Skeleton } from '../../../../../components/Pancakeswap/uikit/src'
 import { LeaderboardDataItem } from '../../../types'
 import GridItem from './GridItem'
 import ExpandedGridItem from './ExpandedGridItem'

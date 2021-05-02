@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
-import { Heading, Card, CardBody, Flex, ArrowForwardIcon, Skeleton } from '@pancakeswap-libs/uikit'
 import max from 'lodash/max'
 import { NavLink } from 'react-router-dom'
 import useI18n from 'hooks/useI18n'
@@ -8,6 +7,7 @@ import BigNumber from 'bignumber.js'
 import { getFarmApr } from 'utils/apr'
 import { useFarms, usePriceCakeBusd, useGetApiPrices } from 'state/hooks'
 import { getAddress } from 'utils/addressHelpers'
+import { Heading, Card, CardBody, Flex, ArrowForwardIcon, Skeleton } from '../../../components/Pancakeswap/uikit/src'
 
 const StyledFarmStakingCard = styled(Card)`
   margin-left: auto;

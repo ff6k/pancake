@@ -1,6 +1,6 @@
 import React from 'react'
-import { Progress, ProgressProps } from '@pancakeswap-libs/uikit'
 import { useBlock } from 'state/hooks'
+import { Progress, ProgressProps } from './Pancakeswap/uikit/src'
 
 interface BlockProgressProps extends ProgressProps {
   startBlock: number

@@ -1,4 +1,10 @@
 import React, { useState } from 'react'
+import useI18n from 'hooks/useI18n'
+import useTheme from 'hooks/useTheme'
+import { useSousHarvest } from 'hooks/useHarvest'
+import { useSousStake } from 'hooks/useStake'
+import useToast from 'hooks/useToast'
+import { Token } from 'config/constants/types'
 import {
   Modal,
   Text,
@@ -11,13 +17,7 @@ import {
   HelpIcon,
   useTooltip,
   Box,
-} from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
-import useTheme from 'hooks/useTheme'
-import { useSousHarvest } from 'hooks/useHarvest'
-import { useSousStake } from 'hooks/useStake'
-import useToast from 'hooks/useToast'
-import { Token } from 'config/constants/types'
+} from '../../../../../components/Pancakeswap/uikit/src'
 
 interface CollectModalProps {
   formattedBalance: string

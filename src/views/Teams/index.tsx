@@ -1,11 +1,11 @@
 import React from 'react'
-import { AutoRenewIcon, Flex, Heading } from '@pancakeswap-libs/uikit'
 import orderBy from 'lodash/orderBy'
 import { useTeams } from 'state/hooks'
 import Page from 'components/layout/Page'
 import useI18n from 'hooks/useI18n'
 import TeamListCard from './components/TeamListCard'
 import TeamHeader from './components/TeamHeader'
+import { AutoRenewIcon, Flex, Heading } from '../../components/Pancakeswap/uikit/src'
 
 const Teams = () => {
   const TranslateString = useI18n()

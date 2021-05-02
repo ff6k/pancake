@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button, useWalletModal } from '@pancakeswap-libs/uikit'
 import useAuth from 'hooks/useAuth'
 import useI18n from 'hooks/useI18n'
+import { Button, useWalletModal } from './Pancakeswap/uikit/src'
 
 const UnlockButton = (props) => {
   const TranslateString = useI18n()

@@ -1,7 +1,7 @@
 import React from 'react'
-import { Box, ExpandableLabel, Flex } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import usePersistState from 'hooks/usePersistState'
+import { Box, ExpandableLabel, Flex } from '../Pancakeswap/uikit/src'
 
 interface Props {
   id: string

@@ -1,6 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useWeb3React } from '@web3-react/core'
+import { useAppDispatch } from 'state'
+import { PredictionStatus } from 'state/types'
+import { useGetPredictionsStatus, useIsChartPaneOpen, useIsHistoryPaneOpen } from 'state/hooks'
+import { setChartPaneState, setHistoryPaneState } from 'state/predictions'
+import useSwiper from '../hooks/useSwiper'
 import {
   ArrowBackIcon,
   ArrowForwardIcon,
@@ -10,12 +15,7 @@ import {
   ChartIcon,
   HistoryIcon,
   IconButton,
-} from '@pancakeswap-libs/uikit'
-import { useAppDispatch } from 'state'
-import { PredictionStatus } from 'state/types'
-import { useGetPredictionsStatus, useIsChartPaneOpen, useIsHistoryPaneOpen } from 'state/hooks'
-import { setChartPaneState, setHistoryPaneState } from 'state/predictions'
-import useSwiper from '../hooks/useSwiper'
+} from '../../../components/Pancakeswap/uikit/src'
 
 const ButtonNav = styled.div`
   flex: none;

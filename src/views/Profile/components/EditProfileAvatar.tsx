@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useModal } from '@pancakeswap-libs/uikit'
 import EditProfileModal from './EditProfileModal'
 import ProfileAvatar, { ProfileAvatarProps } from './ProfileAvatar'
+import { useModal } from '../../../components/Pancakeswap/uikit/src'
 
 const EditOverlay = styled.div`
   background: rgba(0, 0, 0, 0.6) url('/images/camera.svg') no-repeat center center;

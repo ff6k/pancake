@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { useFarmUser } from 'state/hooks'
 import useI18n from 'hooks/useI18n'
-import { Text, Image } from '@pancakeswap-libs/uikit'
 import { getBalanceNumber } from 'utils/formatBalance'
+import { Text, Image } from '../../../../components/Pancakeswap/uikit/src'
 
 export interface FarmProps {
   label: string

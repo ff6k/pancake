@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { useWeb3React } from '@web3-react/core'
 import styled from 'styled-components'
+import useI18n from 'hooks/useI18n'
+import { useTradingCompetitionContract } from 'hooks/useContract'
+import useToast from 'hooks/useToast'
 import {
   Modal,
   Button,
@@ -12,10 +15,7 @@ import {
   CrownIcon,
   TrophyGoldIcon,
   TeamPlayerIcon,
-} from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
-import { useTradingCompetitionContract } from 'hooks/useContract'
-import useToast from 'hooks/useToast'
+} from '../../../../components/Pancakeswap/uikit/src'
 import { useCompetitionCakeRewards, getRewardGroupAchievements } from '../../helpers'
 import { CompetitionProps } from '../../types'
 import NftBunnies from '../../pngs/syrup-nft.png'

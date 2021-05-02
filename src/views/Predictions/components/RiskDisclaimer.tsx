@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import useI18n from 'hooks/useI18n'
+import styled from 'styled-components'
 import {
   ModalContainer,
   ModalBody,
@@ -11,9 +13,7 @@ import {
   ModalTitle,
   Heading,
   Box,
-} from '@pancakeswap-libs/uikit'
-import useI18n from 'hooks/useI18n'
-import styled from 'styled-components'
+} from '../../../components/Pancakeswap/uikit/src'
 
 interface RiskDisclaimerProps extends InjectedModalProps {
   onSuccess: () => void

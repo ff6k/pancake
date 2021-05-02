@@ -1,8 +1,8 @@
 import React from 'react'
-import { Text, Flex, useTooltip, Box } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { VaultFees } from 'hooks/cakeVault/useGetVaultFees'
 import UnstakingFeeCountdownRow from './UnstakingFeeCountdownRow'
+import { Text, Flex, useTooltip, Box } from '../../../../components/Pancakeswap/uikit/src'
 
 interface FeeSummaryProps {
   stakingTokenSymbol: string

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Flex, Text, useTooltip, Box } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import useWithdrawalFeeTimer from 'hooks/cakeVault/useWithdrawalFeeTimer'
 import WithdrawalFeeTimer from './WithdrawalFeeTimer'
+import { Flex, Text, useTooltip, Box } from '../../../../components/Pancakeswap/uikit/src'
 
 interface UnstakingFeeCountdownRowProps {
   account?: string

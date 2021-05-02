@@ -1,8 +1,8 @@
 import React from 'react'
-import { Text, TextProps } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { TranslatableText as AchievementDescriptionType } from 'state/types'
 import styled from 'styled-components'
+import { Text, TextProps } from '../../../components/Pancakeswap/uikit/src'
 
 interface AchievementDescriptionProps extends TextProps {
   description?: AchievementDescriptionType

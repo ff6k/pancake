@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import { PromiEvent } from 'web3-core'
 import { Contract } from 'web3-eth-contract'
 import { useWeb3React } from '@web3-react/core'
-import { Button, InjectedModalProps, Modal, Text, Flex, AutoRenewIcon } from '@pancakeswap-libs/uikit'
 import { Nft } from 'config/constants/types'
 import useI18n from 'hooks/useI18n'
 import useToast from 'hooks/useToast'
+import { Button, InjectedModalProps, Modal, Text, Flex, AutoRenewIcon } from '../../../components/Pancakeswap/uikit/src'
 
 interface ClaimNftModalProps extends InjectedModalProps {
   nft: Nft

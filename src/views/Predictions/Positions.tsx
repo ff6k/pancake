@@ -2,13 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import SwiperCore, { Keyboard, Mousewheel } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Box } from '@pancakeswap-libs/uikit'
 import { useGetSortedRounds } from 'state/hooks'
 import 'swiper/swiper.min.css'
 import RoundCard from './components/RoundCard'
 import Menu from './components/Menu'
 import useSwiper from './hooks/useSwiper'
 import useOnNextRound from './hooks/useOnNextRound'
+import { Box } from '../../components/Pancakeswap/uikit/src'
 
 SwiperCore.use([Keyboard, Mousewheel])
 
