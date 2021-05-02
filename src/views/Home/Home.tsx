@@ -13,9 +13,10 @@ import { Heading, Text, BaseLayout } from '../../components/Pancakeswap/uikit/sr
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/pan-bg-mobile.svg');
+  background-image: url('/images/home/left.png'), url('/images/home/right.png');
+  background-position: left top, right top;
+  background-size: 80px 100px;
   background-repeat: no-repeat;
-  background-position: top center;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -25,8 +26,9 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/pan-bg2.svg'), url('/images/pan-bg.svg');
+    background-image: url('/images/home/left.png'), url('/images/home/right.png');
     background-position: left center, right center;
+    background-size: 145px 165px;
     height: 165px;
     padding-top: 0;
   }
@@ -87,13 +89,9 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <ImageWrapper>
-          <img src="/images/home/left.png" alt="ifo bunny" width="115px" height="100px" />
-          <img src="/images/home/right.png" alt="ifo bunny" width="100px" height="100px" />
-        </ImageWrapper>
-        {/* <Heading as="h1" size="xl" mb="24px" color="secondary">
+        <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Ape Finance')}
-        </Heading> */}
+        </Heading>
         <Text>{TranslateString(578, 'The #1 AMM and yield farm on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
